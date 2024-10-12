@@ -152,7 +152,7 @@ Module.register("MMM-Homematic-HAP-Connector",{
 	 * Receives the notification with the response from the node_helper
 	 */
     socketNotificationReceived: function(notification, payload) {
-        if (notification === 'MMM_CCU2_RESPONSE' ) {
+        if (notification === 'MMM_HAP_RESPONSE' ) {
             if(payload && payload.content){
 				// Log.info(payload.content);
 				this.prepareOutputForDevices(payload.content);
@@ -166,7 +166,7 @@ Module.register("MMM-Homematic-HAP-Connector",{
 	 */
 	prepareOutputForDevices: function(response) {
 		var deviceName = "";
-		// @spitzlbergerj, 20190210: wall thermostat = WT, radiator thermostat = RT
+		// wall thermostat = WT, radiator thermostat = RT
 		var deviceType = "RT";
 		var warn_color = "red"
 
