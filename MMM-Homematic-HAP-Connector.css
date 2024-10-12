@@ -37,11 +37,11 @@
 /* Style table                                                           */
 /* --------------------------------------------------------------------- */
 
-.MMM-Homematic-Thermostats td {
+.MMM-Homematic-HAP-Connector td {
 	text-align: left;
 }
 
-.MMM-Homematic-Thermostats th {
+.MMM-Homematic-HAP-Connector th {
 	text-align: left;
 }
 
@@ -79,23 +79,23 @@ td.faultReporting {
 /* --------------------------------------------------------------------- */
 
 
-.MMM-Homematic-Thermostats .red {
+.MMM-Homematic-HAP-Connector .red {
 	color: red;
 }
 
-.MMM-Homematic-Thermostats .green {
+.MMM-Homematic-HAP-Connector .green {
 	color: green;
 }
 
-.MMM-Homematic-Thermostats .blue {
+.MMM-Homematic-HAP-Connector .blue {
 	color: blue;
 }
 
-.MMM-Homematic-Thermostats .yellow {
+.MMM-Homematic-HAP-Connector .yellow {
 	color: yellow;
 }
 
-.MMM-Homematic-Thermostats .white {
+.MMM-Homematic-HAP-Connector .white {
 	color: white;
 }
 

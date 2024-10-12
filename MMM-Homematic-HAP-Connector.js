@@ -1,4 +1,4 @@
-Module.register("MMM-Homematic-Thermostats",{
+Module.register("MMM-Homematic-HAP-Connector",{
 
     // Default module config.
     defaults: {
@@ -482,7 +482,7 @@ Module.register("MMM-Homematic-Thermostats",{
 				modus = "MANUAL";
 				break;
 			case 2: 
-				modus = "PARTY"; //Urlaubsmodus
+				modus = "PARTY"; //Vacation mode
 				break;
 			case 3: 
 				modus = "BOOST";
@@ -536,7 +536,7 @@ Module.register("MMM-Homematic-Thermostats",{
 	
 	// Define required style-sheet scripts
 	getStyles: function() {
-		return ["MMM-Homematic-Thermostats.css"];
+		return ["MMM-Homematic-HAP-Connector.css"];
 	},
 
 	// Define required dependency scripts
